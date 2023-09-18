@@ -1,0 +1,23 @@
+// const { User } = require('../models');
+
+// const userData = [
+//   {
+    
+//   },
+//   {
+   
+//   },
+//   {
+   
+//   },
+//   {
+    
+   
+//   },
+//   {
+//       },
+// ];
+
+// const seedUsers = () => Product.bulkCreate(userData);
+
+// module.exports = seedUsers;
