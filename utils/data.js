@@ -55,7 +55,7 @@ const names = [
   ``,
 ];
 
-const descriptionsBodies = [
+const thoughtsBodies = [
   'How to disagree with someone',
   'iPhone review',
   'how-to Thought',
@@ -94,7 +94,7 @@ const getRandomThoughts = (int) => {
   for (let i = 0; i < int; i++) {
     results.push({
       published: Math.random() < 0.5,
-      description: getRandomArrItem(descriptionsBodies),
+      thought: getRandomArrItem(thoughtsBodies),
       advertiserFriendly: Math.random() < 0.5,
       reactions: [...getThoughtReactions(3)],
     });

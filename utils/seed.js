@@ -19,16 +19,21 @@ connection.once('open', async () => {
 
   const users = [];
   const thoughts = getRandomThoughts(10);
+  const username = [];
+  const email = [];
 
   for (let i = 0; i < 20; i++) {
     const fullName = getRandomName();
     const first = fullName.split(' ')[0];
     const last = fullName.split(' ')[1];
+   
 
     users.push({
       first,
       last,
       age: Math.floor(Math.random() * (99 - 18 + 1) + 18),
+      username,
+      email
     });
   }
 
